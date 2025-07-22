@@ -15,7 +15,7 @@ Please see the [roadmap](ROADMAP.md).
 All external dependencies were also provided with known working versions.
 
 ## Building
-The CMakeLists.txt is fairly well documented and each option has a description. Use `cmake -LAH` to see all supported options.
+The CMakeLists.txt is fairly well documented and each option has a description. Use `cmake -LH` to see all options specified by this project.
 
 It should support Visual Studio if opened in a version supporting CMake. If you want to use MSYS2 (which is recommended),
 this command can be used to build all tools, assuming you have the accompanying packages installed:
@@ -40,4 +40,4 @@ These are the respective versions for each pxtone project at the time of handoff
 |ptPlayer	|0.9.3.1		|
 
 This is not pxtone engine -- the unmodified version of that can be found at [pxtone.org/developer](https://pxtone.org/developer), and the version used in this repository [here](https://github.com/ewancg/pxtone).
-The original version of the code provided can be found at [here](https://www.cavestory.org/downloads/pxtoneProjectT-220401b-open230815c.zip). The source was provided by the original author of this software ([Studio Pixel](https://studiopixel.jp)) around January 5 2021 and explicit permission to release under the [zlib license](LICENSE) was given on July 21 2025.
+The original version of the code provided can be found [here](https://www.cavestory.org/downloads/pxtoneProjectT-220401b-open230815c.zip). The source was provided by the original author of this software ([Studio Pixel](https://studiopixel.jp)) around January 5 2021 and explicit permission to release under the [zlib license](LICENSE) was given on July 21 2025.
