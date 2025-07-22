@@ -1,5 +1,5 @@
 ## pxtoneCollage
-A fork of [pxtone Collage](pxtone.org).
+A fork of [pxtone Collage](https://pxtone.org).
 
 ## Changes made
 The code has been adapted to build with CMake to enable building with MinGW on Windows, and to ease future porting efforts.
@@ -25,4 +25,4 @@ These are the respective versions for each pxtone project at the time of handoff
 |ptPlayer	|0.9.3.1		|
 
 This is not pxtone engine -- the unmodified version of that can be found at [pxtone.org/developer](https://pxtone.org/developer), and the version used in this repository [here](https://github.com/ewancg/pxtone).
-The original version of the code provided can be found [here](https://cavestory.org/todo). The source was provided by the original author of this software ([Studio Pixel](https://studiopixel.jp)) around January 5 2021 and explicit permission to release under the zlib license was given on July 21 2025.
+The original version of the code provided can be found [here](https://cavestory.org/todo). The source was provided by the original author of this software ([Studio Pixel](https://studiopixel.jp)) around January 5 2021 and explicit permission to release under the [zlib license](LICENSE) was given on July 21 2025.
