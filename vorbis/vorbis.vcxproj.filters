@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ogg">
+      <UniqueIdentifier>{a0124287-c116-42d2-a4dd-ab9478b959ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vorbis">
+      <UniqueIdentifier>{42fde95c-b86a-4dfb-9980-88c76b9ab7ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libvorbis\lib\analysis.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\bitrate.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\block.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\codebook.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\envelope.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\floor0.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\floor1.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\info.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\lookup.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\lpc.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\lsp.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\mapping0.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\mdct.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\psy.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\registry.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\res0.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\sharedbook.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\smallft.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\synthesis.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\vorbisenc.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\vorbisfile.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libvorbis\lib\window.c">
+      <Filter>vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libogg\src\bitwise.c">
+      <Filter>ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libogg\src\framing.c">
+      <Filter>ogg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

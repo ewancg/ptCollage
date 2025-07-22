@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3fc73115-e8d9-4ba7-82b1-7f7f342dc826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StdSfx">
+      <UniqueIdentifier>{701f39c9-8404-4969-8150-796a1c2eea4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ptConfig_Font.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ptConfig_MIDI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ptConfig_Stream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ptConfig_Build.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ptConfig_DlgCtrl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>src\StdSfx</Filter>
+    </ClCompile>
+    <ClCompile Include="ptConfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ptConfig_Font.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ptConfig_MIDI.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ptConfig_Stream.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ptConfig_Build.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ptConfig_DlgCtrl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>src\StdSfx</Filter>
+    </ClInclude>
+    <ClInclude Include="ptConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

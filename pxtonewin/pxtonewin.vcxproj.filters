@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9c189fb0-76ef-47d2-b291-bc08488ee7f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pxtonewinWoice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtonewinXA2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pxtonewinWoice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtonewinXA2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtonewinXA2_tune.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtonewinXA2_voice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

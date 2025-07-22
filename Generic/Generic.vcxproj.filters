@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{936cf98f-720f-4d8a-8e8c-3b425e0ba71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0c854745-9a59-4200-be4f-05d09471c7de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_ExistingWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Japanese.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyControl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenVolumeControl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxMidiIn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="if_Generic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="if_gen_Scroll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu_HistoryW.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ExistingWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Japanese.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyControl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenVolumeControl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxMidiIn.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBox.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="if_Generic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="if_gen_Scroll.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu_HistoryW.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC489144-EF3A-4A1F-BC3B-7E292D57F478}</ProjectGuid>
+    <RootNamespace>ptCollage</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\$(TargetName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Configuration)\$(TargetName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\$(TargetName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Configuration)\$(TargetName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)Include;$(SolutionDir)pxCommon;$(SolutionDir)pxWindows;$(SolutionDir)pxtonewin;$(SolutionDir)pxtone;$(SolutionDir);$(SolutionDir)pxWorks;$(ProjectDir)StdAfx;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include;</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(DXSDK_DIR)Include;$(SolutionDir)pxCommon;$(SolutionDir)pxWindows;$(SolutionDir)pxwin32Streaming;$(SolutionDir)pxtoneToollib;$(SolutionDir)pxtone;$(SolutionDir);$(SolutionDir)pxWorks;$(ProjectDir)StdAfx;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)Include;$(SolutionDir)pxCommon;$(SolutionDir)pxWindows;$(SolutionDir)pxtonewin;$(SolutionDir)pxtone;$(SolutionDir);$(SolutionDir)pxWorks;$(ProjectDir)StdAfx;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include;</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(DXSDK_DIR)Include;$(SolutionDir)pxCommon;$(SolutionDir)pxWindows;$(SolutionDir)pxwin32Streaming;$(SolutionDir)pxtoneToollib;$(SolutionDir)pxtone;$(SolutionDir);$(SolutionDir)pxWorks;$(ProjectDir)StdAfx;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)DirectX9\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86);$(FrameworkSDKDir)\lib</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)DirectX9\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86);$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;pxPLATFORM_windows;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>StdAfx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>px64BIT;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;pxPLATFORM_windows;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ForcedIncludeFiles>StdAfx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>px64BIT;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Generic\Generic.vcxproj">
+      <Project>{82f7472d-84e8-4792-9f25-b75f3647d3a7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\lpng\lpng.vcxproj">
+      <Project>{88c05463-49dd-4660-9ef0-7910d14207b7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ptConfig\ptConfig.vcxproj">
+      <Project>{aaf4f203-73c7-4861-ab42-550d0fe0f4c2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\pxtoneTool\pxtoneTool.vcxproj">
+      <Project>{e0dd4af3-869d-438e-a578-7b034853e615}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\pxtonewin\pxtonewin.vcxproj">
+      <Project>{b434614f-44f8-496c-a51c-2be0907be434}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\pxtone\pxtone.vcxproj">
+      <Project>{7169859c-0dde-4235-8181-6dab1342c45f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\pxWindows\pxWindows.vcxproj">
+      <Project>{980e19b1-fb3c-418f-bb5d-ae46be800c89}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\pxWorks\pxWorks.vcxproj">
+      <Project>{f461ed2a-58e6-43b6-a54c-caa57cdedf46}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\pxWrapper\pxWrapper.vcxproj">
+      <Project>{158cb3a5-c7cf-49c3-a59f-3f1c8e60ec3c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\vorbis\vorbis.vcxproj">
+      <Project>{7f56391c-5472-442b-9d9c-a16dc7e4c742}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{29f50527-8eec-49fb-9a74-b39d6a74ac77}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActiveTone.cpp" />
+    <ClCompile Include="Generic.cpp" />
+    <ClCompile Include="pxtoneProject.cpp" />
+    <ClCompile Include="JapaneseTable.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainProc.cpp" />
+    <ClCompile Include="MidiInput.cpp" />
+    <ClCompile Include="ScopeEvent.cpp" />
+    <ClCompile Include="UndoEvent.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="UnitFocus.cpp" />
+    <ClCompile Include="Woice.cpp" />
+    <ClCompile Include="WoiceFocus.cpp" />
+    <ClCompile Include="interface\if_BaseField.cpp" />
+    <ClCompile Include="interface\if_Copier.cpp" />
+    <ClCompile Include="interface\if_Cursor.cpp" />
+    <ClCompile Include="interface\if_Cursor_Copier.cpp" />
+    <ClCompile Include="interface\if_Cursor_Effector.cpp" />
+    <ClCompile Include="interface\if_Cursor_Keyboard.cpp" />
+    <ClCompile Include="interface\if_Cursor_KeyField.cpp" />
+    <ClCompile Include="interface\if_Cursor_Menu_Division.cpp" />
+    <ClCompile Include="interface\if_Cursor_Menu_Play.cpp" />
+    <ClCompile Include="interface\if_Cursor_Menu_Scope.cpp" />
+    <ClCompile Include="interface\if_Cursor_Menu_Unit.cpp" />
+    <ClCompile Include="interface\if_Cursor_Menu_Woice.cpp" />
+    <ClCompile Include="interface\if_Cursor_Menu_Zoom.cpp" />
+    <ClCompile Include="interface\if_Cursor_Panel_Comment.cpp" />
+    <ClCompile Include="interface\if_Cursor_Panel_Rack.cpp" />
+    <ClCompile Include="interface\if_Cursor_Panel_Scale.cpp" />
+    <ClCompile Include="interface\if_Cursor_Player.cpp" />
+    <ClCompile Include="interface\if_Cursor_PlayField.cpp" />
+    <ClCompile Include="interface\if_Cursor_Projector.cpp" />
+    <ClCompile Include="interface\if_Cursor_ScopeField.cpp" />
+    <ClCompile Include="interface\if_Cursor_Tenkey_Correct.cpp" />
+    <ClCompile Include="interface\if_Cursor_ToolPanel.cpp" />
+    <ClCompile Include="interface\if_Cursor_UnitField.cpp" />
+    <ClCompile Include="interface\if_Cursor_UnitTray.cpp" />
+    <ClCompile Include="interface\if_Cursor_VolumeField.cpp" />
+    <ClCompile Include="interface\if_Cursor_VolumePanel.cpp" />
+    <ClCompile Include="interface\if_Cursor_WoiceTray.cpp" />
+    <ClCompile Include="interface\if_Effector.cpp" />
+    <ClCompile Include="interface\if_Free.cpp" />
+    <ClCompile Include="interface\if_Keyboard.cpp" />
+    <ClCompile Include="interface\if_KeyField.cpp" />
+    <ClCompile Include="interface\if_Menu_Division.cpp" />
+    <ClCompile Include="interface\if_Menu_Play.cpp" />
+    <ClCompile Include="interface\if_Menu_Scope.cpp" />
+    <ClCompile Include="interface\if_Menu_Unit.cpp" />
+    <ClCompile Include="interface\if_Menu_Woice.cpp" />
+    <ClCompile Include="interface\if_Menu_Zoom.cpp" />
+    <ClCompile Include="interface\if_Panel_Comment.cpp" />
+    <ClCompile Include="interface\if_Panel_Logo.cpp" />
+    <ClCompile Include="interface\if_Panel_Rack.cpp" />
+    <ClCompile Include="interface\if_Panel_Scale.cpp" />
+    <ClCompile Include="interface\if_Player.cpp" />
+    <ClCompile Include="interface\if_PlayField.cpp" />
+    <ClCompile Include="interface\if_Projector.cpp" />
+    <ClCompile Include="interface\if_ScopeField.cpp" />
+    <ClCompile Include="interface\if_SelectNo_Group.cpp" />
+    <ClCompile Include="interface\if_SelectNo_Woice.cpp" />
+    <ClCompile Include="interface\if_ShortcutKey.cpp" />
+    <ClCompile Include="interface\if_SubWindows.cpp" />
+    <ClCompile Include="interface\if_Tenkey_Tuning.cpp" />
+    <ClCompile Include="interface\if_ToolPanel.cpp" />
+    <ClCompile Include="interface\if_UnitField.cpp" />
+    <ClCompile Include="interface\if_UnitTray.cpp" />
+    <ClCompile Include="interface\if_VolumeField.cpp" />
+    <ClCompile Include="interface\if_VolumePanel.cpp" />
+    <ClCompile Include="interface\if_WoiceDummy.cpp" />
+    <ClCompile Include="interface\if_WoiceField.cpp" />
+    <ClCompile Include="interface\if_WoiceTray.cpp" />
+    <ClCompile Include="interface\Interface.cpp" />
+    <ClCompile Include="dialog\dlg_About.cpp" />
+    <ClCompile Include="dialog\dlg_AddUnit.cpp" />
+    <ClCompile Include="dialog\dlg_BuildOption.cpp" />
+    <ClCompile Include="dialog\dlg_BuildProgress.cpp" />
+    <ClCompile Include="dialog\dlg_Comment.cpp" />
+    <ClCompile Include="dialog\dlg_Config.cpp" />
+    <ClCompile Include="dialog\dlg_CopyMeas.cpp" />
+    <ClCompile Include="dialog\dlg_Delay.cpp" />
+    <ClCompile Include="dialog\dlg_EventVolume.cpp" />
+    <ClCompile Include="dialog\dlg_OverDrive.cpp" />
+    <ClCompile Include="dialog\dlg_Project.cpp" />
+    <ClCompile Include="dialog\dlg_Property.cpp" />
+    <ClCompile Include="dialog\dlg_Scope.cpp" />
+    <ClCompile Include="dialog\dlg_Unit.cpp" />
+    <ClCompile Include="dialog\dlg_Woice.cpp" />
+    <ClCompile Include="dialog\dlg_YesNo.cpp" />
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActiveTone.h" />
+    <ClInclude Include="interface\if_WoiceDummy.h" />
+    <ClInclude Include="MidiInput.h" />
+    <ClInclude Include="dialog\dlg_AddUnit.h" />
+    <ClInclude Include="dialog\dlg_BuildProgress.h" />
+    <ClInclude Include="dialog\dlg_Delay.h" />
+    <ClInclude Include="dialog\dlg_EventVolume.h" />
+    <ClInclude Include="dialog\dlg_OverDrive.h" />
+    <ClInclude Include="JapaneseTable.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScopeEvent.h" />
+    <ClInclude Include="UndoEvent.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitFocus.h" />
+    <ClInclude Include="Woice.h" />
+    <ClInclude Include="WoiceFocus.h" />
+    <ClInclude Include="interface\if_BaseField.h" />
+    <ClInclude Include="interface\if_Copier.h" />
+    <ClInclude Include="interface\if_Cursor.h" />
+    <ClInclude Include="interface\if_Effector.h" />
+    <ClInclude Include="interface\if_Free.h" />
+    <ClInclude Include="interface\if_Keyboard.h" />
+    <ClInclude Include="interface\if_KeyField.h" />
+    <ClInclude Include="interface\if_Menu_Division.h" />
+    <ClInclude Include="interface\if_Menu_Play.h" />
+    <ClInclude Include="interface\if_Menu_Scope.h" />
+    <ClInclude Include="interface\if_Menu_Unit.h" />
+    <ClInclude Include="interface\if_Menu_Woice.h" />
+    <ClInclude Include="interface\if_Menu_Zoom.h" />
+    <ClInclude Include="interface\if_Panel_Comment.h" />
+    <ClInclude Include="interface\if_Panel_Logo.h" />
+    <ClInclude Include="interface\if_Panel_Rack.h" />
+    <ClInclude Include="interface\if_Panel_Scale.h" />
+    <ClInclude Include="interface\if_Player.h" />
+    <ClInclude Include="interface\if_PlayField.h" />
+    <ClInclude Include="interface\if_Projector.h" />
+    <ClInclude Include="interface\if_ScopeField.h" />
+    <ClInclude Include="interface\if_SelectNo_Group.h" />
+    <ClInclude Include="interface\if_SelectNo_Woice.h" />
+    <ClInclude Include="interface\if_ShortcutKey.h" />
+    <ClInclude Include="interface\if_SubWindows.h" />
+    <ClInclude Include="interface\if_Tenkey_Tuning.h" />
+    <ClInclude Include="interface\if_ToolPanel.h" />
+    <ClInclude Include="interface\if_UnitField.h" />
+    <ClInclude Include="interface\if_UnitTray.h" />
+    <ClInclude Include="interface\if_VolumeField.h" />
+    <ClInclude Include="interface\if_VolumePanel.h" />
+    <ClInclude Include="interface\if_WoiceField.h" />
+    <ClInclude Include="interface\if_WoiceTray.h" />
+    <ClInclude Include="interface\Interface.h" />
+    <ClInclude Include="interface\SurfaceNo.h" />
+    <ClInclude Include="StdAfx\StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\add_u.ico" />
+    <None Include="icon\add_uv.ico" />
+    <None Include="icon\add_v.ico" />
+    <None Include="bmp\Copier.bmp" />
+    <None Include="bmp\Effector.bmp" />
+    <None Include="icon\ptCollage.ico" />
+    <None Include="icon\file_close.ico" />
+    <None Include="icon\file_drive.ico" />
+    <None Include="icon\file_drive_cdrom.ico" />
+    <None Include="icon\file_drive_fixed.ico" />
+    <None Include="icon\file_drive_remove.ico" />
+    <None Include="icon\file_drive_x.ico" />
+    <None Include="icon\file_folder.ico" />
+    <None Include="icon\file_lnk.ico" />
+    <None Include="icon\file_pcm.ico" />
+    <None Include="icon\file_ptn.ico" />
+    <None Include="icon\file_ptv.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

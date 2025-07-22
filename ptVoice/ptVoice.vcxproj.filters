@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{5d39eb21-074a-431d-a5c8-d91ed2b77112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{21fbe3da-76d0-42fa-accb-6492670f353b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialog">
+      <UniqueIdentifier>{94fdb158-3076-4bbb-bb1b-f75a2358d5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interface">
+      <UniqueIdentifier>{ddce862e-6d4c-466b-84fb-7769e6c5879b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dialog\dlg_About.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Config.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Message.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_YesNo.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="JapaneseTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiInput.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorKeyCtrl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="WoiceUnit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\Interface.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptui.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiCursor.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiEnvelope.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiMap.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiOrganKey.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiReleaseTime.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiVelocity.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiWave.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiWorkTemp.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiSines.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ptvVelocity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiHeader.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ptVoice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="WoiceUnit_csv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiKnob.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiSwitch.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiWavePreset.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiEnveHead.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiRackHalf.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiRackFull.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiWaveHead.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiWave_mini.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\ptuiEnve_mini.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dialog\dlg_Message.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="JapaneseTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceFile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiInput.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorKeyCtrl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ptVoice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="WoiceUnit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\Interface.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptui.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiCursor.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiEnvelope.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiMap.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiOrganKey.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiReleaseTime.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiVelocity.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiWave.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiWorkTemp.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiSines.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ptvVelocity.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiLayout.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiHeader.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiKnob.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiSwitch.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiWavePreset.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiEnveHead.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiRackHalf.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiRackFull.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiWaveHead.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiWave_mini.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\ptuiEnve_mini.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\EditMode.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Etcetera.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\face.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_close.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_cdrom.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_fixed.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_remove.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_x.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_folder.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_lnk.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_pcm.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptn.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptv.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Keyboard.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\MasterVolume.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Monitor.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Oscillator.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Player.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Preset.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Priset.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\ScrollH.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\ScrollV.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\SliderField.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Symbol.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Tenkey.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\VoiceList.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\VoiceSwitch.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\VoiceVolume.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\WaveList.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="wave\test.wav" />
+    <None Include="icon\ptVoice.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="script.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

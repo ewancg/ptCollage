@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2982b7df-55ab-4064-ad52-42e3385982c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pxtnDelay.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnEvelist.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnMaster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnOverDrive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnService.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnText.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnUnit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnWoice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnWoice_io.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnWoicePTV.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtoneNoise.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnPulse_Frequency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnPulse_Noise.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnPulse_NoiseBuilder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnPulse_Oggv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnPulse_Oscillator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnPulse_PCM.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnService_moo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnError.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnMem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtnData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pxtnDelay.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnEvelist.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnMaster.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnMax.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnOverDrive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnService.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnText.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnUnit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnWoice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtoneNoise.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnPulse_Frequency.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnPulse_Noise.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnPulse_NoiseBuilder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnPulse_Oggv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnPulse_Oscillator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnPulse_PCM.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtn.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnError.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnMem.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtnData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pxtn_version.txt">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,448 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MENU_MAIN MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Load *.wav",                  IDM_LOAD_PCM
+        MENUITEM "Save *.wav",                  IDM_SAVE
+        MENUITEM "Save As *.wav",               IDM_SAVE_AS_PCM
+        MENUITEM SEPARATOR
+        MENUITEM "Quit",                        IDM_CLOSE
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Convert Volume(PCM)",         IDM_CONVERTVOLUME
+    END
+    POPUP "Setting"
+    BEGIN
+        MENUITEM "Config",                      IDM_CONFIG
+        MENUITEM "Volume",                      IDM_VOLUMEDIALOG
+        MENUITEM SEPARATOR
+        MENUITEM "Loop",                        IDM_LOOP
+    END
+    POPUP "etc"
+    BEGIN
+        MENUITEM "About",                       IDM_ABOUT
+    END
+END
+
+MENU_DUMMY MENU
+BEGIN
+    POPUP "a"
+    BEGIN
+        MENUITEM "Export *.ptvoice",            40017
+        MENUITEM "Inport *.ptvoice",            40018
+        MENUITEM SEPARATOR
+        MENUITEM "Close",                       2
+    END
+    MENUITEM "Edit",                        65535
+    POPUP "test"
+    BEGIN
+        MENUITEM "test",                        40024
+    END
+END
+
+MENU_DESIGN MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Load *.ptnoise",              IDM_LOAD
+        MENUITEM "Save *.ptnoise",              IDM_SAVE
+        MENUITEM "Save As *.ptnoise",           IDM_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Initialize",                  IDM_INITIALIZE
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Copy Layer",                  IDM_COPY
+    END
+    POPUP "Setting"
+    BEGIN
+        MENUITEM "Build Quality",               IDM_QUALITY_DIALOG
+    END
+END
+
+MENU_HISTORY MENU
+BEGIN
+    MENUITEM "Clear",                       40027
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+0                       ICON                    "icon/ptNoise.ico"
+ICON_DISABLE            ICON                    "icon/disable.ico"
+ICON_ENABLE             ICON                    "icon/enable.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,3,1
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "Studio Pixel"
+            VALUE "FileVersion", "0.9.3.1"
+            VALUE "LegalCopyright", "(C) Studio Pixel 2017"
+            VALUE "ProductName", "pxtone"
+            VALUE "ProductVersion", "0.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_CONFIG DIALOGEX 0, 0, 134, 165
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    COMBOBOX        IDC_COMBO_AT_CHANNEL,72,48,44,60,CBS_DROPDOWNLIST | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_AT_SPS,72,66,44,119,CBS_DROPDOWNLIST | WS_TABSTOP
+    EDITTEXT        IDC_AT_BUFFER,72,88,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "Default",IDC_DEFAULT,76,120,48,16,BS_FLAT
+    DEFPUSHBUTTON   "Ok",IDOK,25,141,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,76,141,48,16,BS_FLAT
+    LTEXT           "Channel",IDC_TEXT_CHANNEL,24,47,41,12,SS_CENTERIMAGE
+    LTEXT           "Sample/Sec",IDC_TEXT_SPS,24,66,41,12,SS_CENTERIMAGE
+    GROUPBOX        "Operation Sound",IDC_TEXT_QUALITY,11,33,113,79
+    LTEXT           "== Config ==",IDC_TEXT_CONFIGTITLE,7,7,96,12,SS_CENTERIMAGE
+    LTEXT           "Buffer",IDC_TEXT_BUFFER,24,88,41,12,SS_CENTERIMAGE
+    LTEXT           "sec",IDC_TEXT_SECOND,102,88,12,14,SS_CENTERIMAGE
+END
+
+DLG_MESSAGE DIALOGEX 0, 0, 187, 57
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,68,35,52,15,BS_FLAT
+    CTEXT           "---",IDC_MESSAGE,7,12,172,12,SS_CENTERIMAGE
+END
+
+DLG_ABOUT DIALOGEX 0, 0, 118, 128
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,35,103,48,18,BS_FLAT
+    CTEXT           "---",IDC_VERSION,7,61,104,12,SS_CENTERIMAGE
+    CTEXT           "== About ==",IDC_TEXT_ABOUTTITLE,7,7,104,12,SS_CENTERIMAGE
+    CTEXT           "---",IDC_MESSAGE,7,81,104,12,SS_CENTERIMAGE
+    CTEXT           "pxtone Noise",IDC_NAME,7,23,104,12,SS_CENTERIMAGE
+    CTEXT           "Studio Pixel",IDC_CREATOR,7,43,104,12,SS_CENTERIMAGE
+END
+
+DLG_INITIALIZE DIALOGEX 0, 0, 135, 109
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,21,86,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,73,86,48,16,BS_FLAT
+    LTEXT           "== Quality ==",IDC_TEXT_QUALITYTITLE,8,8,120,12,SS_CENTERIMAGE
+    LTEXT           "Sample/Second",IDC_TEXT_SPS,12,62,59,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_CHANNEL,77,29,44,60,CBS_DROPDOWNLIST | WS_TABSTOP
+    LTEXT           "Channel",IDC_TEXT_AT_CHANNEL,12,29,41,14,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_SPS,77,62,44,60,CBS_DROPDOWNLIST | WS_TABSTOP
+END
+
+DLG_NOISE_DESIGN DIALOGEX 0, 0, 378, 215
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Design Noise"
+MENU "MENU_DESIGN"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    EDITTEXT        IDC_SAMPLENUM,272,148,36,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "",IDC_TAB,"SysTabControl32",TCS_BOTTOM,6,7,217,191
+    EDITTEXT        IDC_ENVELOPE_SEC_1,85,24,24,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENVELOPE_SEC_2,85,36,24,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENVELOPE_SEC_3,85,48,24,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PAN,180,30,18,12,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TYPE_MAIN,54,90,44,184,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_CHECK_REVERSE_MAIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,54,108,13,12
+    EDITTEXT        IDC_FREQUENCY_MAIN,54,126,27,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_VOLUME_MAIN,54,138,27,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_OFFSET_MAIN,54,150,27,12,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TYPE_FREQ,115,90,44,188,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_CHECK_REVERSE_FREQ,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,115,108,13,12
+    EDITTEXT        IDC_FREQUENCY_FREQ,114,126,24,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_VOLUME_FREQ,114,138,24,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_OFFSET_FREQ,114,150,24,12,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TYPE_VOLUME,175,90,44,188,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_CHECK_REVERSE_VOLUME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,174,108,13,12
+    EDITTEXT        IDC_FREQUENCY_VOLUME,174,126,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_VOLUME_VOLUME,174,138,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_OFFSET_VOLUME,174,150,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE,"Button",BS_AUTOCHECKBOX | BS_NOTIFY | WS_TABSTOP,18,168,65,12,WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Build",IDC_BUILD,227,184,145,24
+    LTEXT           "Freq",IDC_TEXT_FREQUENCY,18,126,30,12,SS_CENTERIMAGE
+    LTEXT           "Hz",IDC_STATIC,85,126,11,12,SS_CENTERIMAGE
+    LTEXT           "Volume",IDC_TEXT_VOLUME,18,138,30,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,85,138,11,12,SS_CENTERIMAGE
+    LTEXT           "Offset",IDC_TEXT_OFFSET,18,150,30,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,85,150,11,12,SS_CENTERIMAGE
+    LTEXT           "Type",IDC_TEXT_TYPE,18,90,30,12,SS_CENTERIMAGE
+    LTEXT           "Hz",IDC_STATIC,145,126,8,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,145,138,8,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,145,150,11,12,SS_CENTERIMAGE
+    LTEXT           "Hz",IDC_STATIC,205,126,11,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,205,138,11,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,205,150,11,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,102,72,1,91
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,162,72,1,90
+    LTEXT           "Main",IDC_STATIC,54,72,35,13,SS_CENTERIMAGE
+    LTEXT           "Frequency",IDC_STATIC,114,72,35,13,SS_CENTERIMAGE
+    LTEXT           "Volume",IDC_STATIC,174,72,35,13,SS_CENTERIMAGE
+    LTEXT           "Reverse",IDC_TEXT_REVERSE,18,108,30,12,SS_CENTERIMAGE
+    GROUPBOX        "Envelope",IDC_TEXT_ENVELOPE,18,12,120,54
+    LTEXT           "sec",IDC_TEXT_SEC_1,115,24,11,12,SS_CENTERIMAGE
+    LTEXT           "sec",IDC_TEXT_SEC_2,115,36,11,12,SS_CENTERIMAGE
+    LTEXT           "sec",IDC_TEXT_SEC_3,115,48,11,12,SS_CENTERIMAGE
+    LTEXT           "1",IDC_STATIC,30,24,8,12,SS_CENTERIMAGE
+    LTEXT           "2",IDC_STATIC,30,36,8,12,SS_CENTERIMAGE
+    LTEXT           "3",IDC_STATIC,30,48,8,12,SS_CENTERIMAGE
+    LTEXT           "Sample Num",IDC_TEXT_SAMPLE_NUM,227,148,41,12,SS_CENTERIMAGE
+    CTEXT           "-",IDC_SEC,308,148,25,12,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "sec",IDC_TEXT_SEC_4,338,148,15,12,SS_CENTERIMAGE
+    CTEXT           "-",IDC_QUALITY,272,163,100,12,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "Pan",IDC_TEXT_PAN,156,30,18,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,204,30,8,12,SS_CENTERIMAGE
+    LTEXT           "Build Quality",IDC_TEXT_BUILD_QUALITY,227,164,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ENVELOPE_VOL_1,42,24,18,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ENVELOPE_VOL_2,42,36,18,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ENVELOPE_VOL_3,42,48,18,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,66,24,8,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,66,36,8,12,SS_CENTERIMAGE
+    LTEXT           "%",IDC_STATIC,66,48,8,12,SS_CENTERIMAGE
+    LTEXT           "( -100% .. 100% )",IDC_STATIC,156,48,48,12,SS_CENTERIMAGE
+    CONTROL         "IMG_PATTERN",IDC_BITMAP1,"Static",SS_BITMAP | SS_REALSIZEIMAGE,226,7,58,66,WS_EX_STATICEDGE
+END
+
+DLG_NOISE_QUALITY DIALOGEX 0, 0, 131, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Build Quality"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    COMBOBOX        IDC_COMBO_CHANNEL,66,12,48,60,CBS_DROPDOWNLIST | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SPS,66,30,48,137,CBS_DROPDOWNLIST | WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",IDOK,12,51,48,18,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,72,51,48,18,BS_FLAT
+    LTEXT           "Channel",IDC_TEXT_CHANNEL,18,12,48,13,SS_CENTERIMAGE
+    LTEXT           "Sample/Sec",IDC_TEXT_SPS,18,30,48,13,SS_CENTERIMAGE
+END
+
+DLG_NOISE_COPY DIALOGEX 0, 0, 62, 83
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Copy Layer"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    COMBOBOX        IDC_COMBO_UNIT_FROM,32,7,23,94,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_UNIT_TO,32,24,23,94,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",IDOK,7,42,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,7,60,48,16,BS_FLAT
+    LTEXT           "From",IDC_TEXT_FROM,7,7,22,12,SS_CENTERIMAGE
+    LTEXT           "To",IDC_TEXT_TO,7,24,22,12,SS_CENTERIMAGE
+END
+
+DLG_HISTORY DIALOGEX 0, 0, 190, 60
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "History"
+MENU "MENU_HISTORY"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,176,46
+END
+
+DLG_PCM_VOLUME DIALOGEX 0, 0, 113, 57
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Volume (PCM)"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    EDITTEXT        IDC_VOLUME_RATE,64,11,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Ok",IDOK,7,33,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,58,33,48,16,BS_FLAT
+    LTEXT           "Rate",IDC_TEXT_VOLUMERATE,19,11,40,12,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "DLG_CONFIG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    "DLG_MESSAGE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    "DLG_ABOUT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    "DLG_INITIALIZE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    "DLG_NOISE_DESIGN", DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    "DLG_NOISE_QUALITY", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 124
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    "DLG_NOISE_COPY", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 55
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 76
+    END
+
+    "DLG_HISTORY", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    "DLG_PCM_VOLUME", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 106
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IMG_PATTERN             BITMAP                  "img\\pattern.bmp"
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

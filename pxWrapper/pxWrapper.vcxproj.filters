@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{05592c1d-abae-4d67-b1d5-76172f806a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StdAfx">
+      <UniqueIdentifier>{853c3dc6-7fbf-46c6-8515-94230947347d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>src\StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwrDirectory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwrMutex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwrAppEtc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwrMouse.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>src\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwrDirectory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwrMutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwrAppEtc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwrMouse.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

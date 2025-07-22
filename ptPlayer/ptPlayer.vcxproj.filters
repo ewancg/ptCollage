@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{fab8e98a-8a52-4c07-9b14-bcdcd6dfafee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7abdff99-f4c0-448f-b4ff-d1b4e6c8b273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialog">
+      <UniqueIdentifier>{3151b035-a144-41db-b23e-504d99f5d6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interface">
+      <UniqueIdentifier>{7c3d9952-a54a-4a39-95c7-95c3191add96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dialog\dlg_About.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_BuildOption.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_BuildProgress.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Config.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Message.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Player.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Player.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\Interface.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Tune.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Call_ptCollage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="JapaneseTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dialog\dlg_BuildProgress.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\dlg_Message.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Cursor.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\SurfaceNo.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Player.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\Interface.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Call_ptCollage.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Tune.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="JapaneseTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\face.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Player.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\pxtone1.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\pxtone2.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\sprite1.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Tenkey.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="test.ptcop" />
+    <None Include="wave\test.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="script.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

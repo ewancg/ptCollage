@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{438d0a7e-d51c-4990-a0b5-769871101c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StdAfx">
+      <UniqueIdentifier>{6ec8496c-361f-4b26-8eb6-0b665a8d36e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pxwDx09Draw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwFilePath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>src\StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwXA2stream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwXA2unit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwXAudio2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwMutex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwDlg_SelFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwUTF8.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwDirectory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwWindowRect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwTextOverride.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwAppEtc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwAlteration.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwPathDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwXAudio2Keep.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pxwGlyph1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pxwDx09Draw.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwFile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwFilePath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>src\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwXA2stream.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwXA2unit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwXAudio2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwMutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwDlg_SelFile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwUTF8.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwDirectory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwThread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwWindowRect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwTextOverride.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwAppEtc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwAlteration.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwPathDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwXAudio2Keep.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxwGlyph1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

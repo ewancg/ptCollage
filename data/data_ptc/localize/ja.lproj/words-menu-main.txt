@@ -1,0 +1,23 @@
+// ＵＴＦ８
+*-close               ;閉じる
+
+*-file                ;ファイル
+*-init project        ; 曲ファイルを初期化
+*-load project        ; 曲ファイルを読み込み
+*-history             ; 最近使用した曲ファイル
+*-save project(ctrl+s); 曲ファイルを保存	Ctrl + S
+*-save project as     ; 曲ファイルを別名で保存
+*-output pttune       ; pttuneファイルを出力する
+*-output wav          ; wavファイルを出力する
+
+*-edit                ; 編集
+*-undo(Ctrl+Z)        ; 戻す
+*-redo(Ctrl+Y)        ; やり直し
+*-copy meas           ; 小節コピー
+
+*-setting             ; 設定
+*-preparation         ; 環境設定
+
+*-etc                 ; その他
+*-status              ; ステータス
+*-about               ; このソフトについて

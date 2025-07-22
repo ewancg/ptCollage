@@ -1,0 +1,265 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MENU_MAIN MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Initialize",                  IDM_INITIALIZE
+        MENUITEM "Load",                        IDM_LOAD_PTVOICE
+        MENUITEM "Save",                        IDM_SAVE
+        MENUITEM "Save As",                     IDM_SAVE_AS_PTVOICE
+        MENUITEM SEPARATOR
+        MENUITEM "Output text",                 IDM_OUTPUT_TEXT
+        MENUITEM SEPARATOR
+        MENUITEM "Quit",                        IDM_CLOSE
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Copy A to B",                 IDM_COPY_AB
+        MENUITEM "Copy B to A",                 IDM_COPY_BA
+    END
+    POPUP "Setting"
+    BEGIN
+        MENUITEM "Config",                      IDM_CONFIG
+        MENUITEM "Volume",                      IDM_VOLUMEDIALOG
+    END
+    POPUP "etc"
+    BEGIN
+        MENUITEM "About",                       IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+0                       ICON                    "icon/ptVoice.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,4,1
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "Studio Pixel"
+            VALUE "FileVersion", "0.9.4.1"
+            VALUE "LegalCopyright", "(C) Studio Pixel 2017"
+            VALUE "ProductName", "pxtone"
+            VALUE "ProductVersion", "0.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_CONFIG DIALOGEX 0, 0, 257, 154
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    COMBOBOX        IDC_COMBO_AT_CHANNEL,72,39,44,60,CBS_DROPDOWNLIST | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_AT_SPS,72,57,44,91,CBS_DROPDOWNLIST | WS_TABSTOP
+    EDITTEXT        IDC_AT_BUFFER,72,79,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_MIDIDEVICE,143,54,91,64,CBS_DROPDOWNLIST | WS_TABSTOP
+    CONTROL         "Velocity",IDC_CHK_VELOCITY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,143,76,40,10
+    EDITTEXT        IDC_KEYTUNING,206,101,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Ok",IDOK,151,131,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,202,131,48,16,BS_FLAT
+    PUSHBUTTON      "Default",IDC_DEFAULT,194,7,48,16,BS_FLAT
+    LTEXT           "Channel",IDC_TEXT_AT_CHANNEL,24,39,41,14,SS_CENTERIMAGE
+    LTEXT           "Sample/Sec",IDC_TEXT_AT_SPS,24,57,41,14,SS_CENTERIMAGE
+    GROUPBOX        "Operation Sound",IDC_TEXT_AT_QUALITY,11,25,113,99
+    LTEXT           "== Config ==",IDC_TEXT_CONFIGTITLE,7,7,96,12,SS_CENTERIMAGE
+    LTEXT           "Buffer",IDC_TEXT_AT_BUFFER,24,78,41,14,SS_CENTERIMAGE
+    LTEXT           "sec",IDC_TEXT_SECOND,101,78,19,14,SS_CENTERIMAGE
+    GROUPBOX        "MIDI Device",IDC_TEXT_MIDIDEVICE,133,25,113,99
+    LTEXT           "IN",IDC_STATIC,142,38,41,14,SS_CENTERIMAGE
+    LTEXT           "Key Tuning",IDC_TEXT_KEYTUNING,143,101,59,14,SS_CENTERIMAGE
+END
+
+DLG_MESSAGE DIALOGEX 0, 0, 187, 57
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,68,35,52,15,BS_FLAT
+    CTEXT           "---",IDC_MESSAGE,7,12,172,12,SS_CENTERIMAGE
+END
+
+DLG_YESNO DIALOGEX 0, 0, 167, 73
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,56,50,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,108,50,48,16,BS_FLAT
+    LTEXT           "---",IDC_MESSAGE,16,24,144,12,SS_CENTERIMAGE
+    LTEXT           "Are you sure?",IDC_TEXT_SURETITLE,12,8,92,12,SS_CENTERIMAGE
+END
+
+DLG_ABOUT DIALOGEX 0, 0, 118, 128
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,35,103,48,18,BS_FLAT
+    CTEXT           "---",IDC_VERSION,7,61,104,12,SS_CENTERIMAGE
+    CTEXT           "== About ==",IDC_TEXT_ABOUTTITLE,7,7,104,12,SS_CENTERIMAGE
+    CTEXT           "---",IDC_MESSAGE,7,81,104,12,SS_CENTERIMAGE
+    CTEXT           "pxtone Voice",IDC_NAME,7,23,104,12,SS_CENTERIMAGE
+    CTEXT           "Studio Pixel",IDC_CREATOR,7,43,104,12,SS_CENTERIMAGE
+END
+
+DLG_UNIT DIALOGEX 0, 0, 148, 80
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    EDITTEXT        IDC_BASICKEY,59,30,37,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "+",IDC_BASICKEY_UP,101,30,14,12,BS_FLAT
+    PUSHBUTTON      "-",IDC_BASICKEY_DOWN,118,30,14,12,BS_FLAT
+    DEFPUSHBUTTON   "Ok",IDOK,40,57,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,93,57,48,16,BS_FLAT
+    LTEXT           "== Unit Config ==",IDC_TEXT_UNITTITLE,7,7,96,12,SS_CENTERIMAGE
+    LTEXT           "Basic Key",IDC_TEXT_BASICKEY,23,30,33,12,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "DLG_CONFIG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    "DLG_MESSAGE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    "DLG_YESNO", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    "DLG_ABOUT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    "DLG_UNIT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 141
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

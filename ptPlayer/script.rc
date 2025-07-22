@@ -1,0 +1,305 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MENU_MAIN MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Load",                        IDM_LOAD
+        POPUP "History"
+        BEGIN
+            MENUITEM "=",                           40039, GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Export *.wav",                IDM_EXPORTWAV
+        MENUITEM "pxtone Collage",              IDM_PTCOLLAGE
+        MENUITEM SEPARATOR
+        MENUITEM "Quit",                        IDM_CLOSE
+    END
+    POPUP "Etc"
+    BEGIN
+        MENUITEM "Config",                      40015
+        MENUITEM "Volume",                      40016
+        MENUITEM "About",                       IDM_ABOUT
+        MENUITEM "Fadeout",                     IDM_TEST_FADEOUT
+        MENUITEM "Tune Release",                40042
+    END
+END
+
+MENU_DUMMY MENU
+BEGIN
+    POPUP "History"
+    BEGIN
+        MENUITEM "history0",                    40028
+        MENUITEM "history1",                    40029
+        MENUITEM "history2",                    40030
+        MENUITEM "history3",                    40031
+        MENUITEM "history4",                    40032
+        MENUITEM "history5",                    40033
+        MENUITEM "history6",                    40034
+        MENUITEM "history7",                    40035
+        MENUITEM "history8",                    40036
+        MENUITEM "history9",                    40037
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+0                       ICON                    "icon/ptPlayer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+WAVE_TEST               WAVE                    "wave/test.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,3,1
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "Studio Pixel"
+            VALUE "FileVersion", "0.9.3.1"
+            VALUE "LegalCopyright", "(C) Studio Pixel 2017"
+            VALUE "ProductName", "pxtone"
+            VALUE "ProductVersion", "0.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_ABOUT DIALOGEX 0, 0, 118, 128
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,35,103,48,18,BS_FLAT
+    CTEXT           "---",IDC_VERSION,7,61,104,12,SS_CENTERIMAGE
+    CTEXT           "== About ==",IDC_TEXT_ABOUTTITLE,7,7,104,12,SS_CENTERIMAGE
+    CTEXT           "---",IDC_MESSAGE,7,81,104,12,SS_CENTERIMAGE
+    CTEXT           "pxtone Player",IDC_NAME,7,23,104,12,SS_CENTERIMAGE
+    CTEXT           "Studio Pixel",IDC_CREATOR,7,43,104,12,SS_CENTERIMAGE
+END
+
+DLG_CONFIG DIALOGEX 0, 0, 256, 140
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    COMBOBOX        IDC_COMBO_CHANNEL,72,47,44,60,CBS_DROPDOWNLIST | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SPS,72,66,44,84,CBS_DROPDOWNLIST | WS_TABSTOP
+    EDITTEXT        IDC_BUFFER,72,87,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_FONT,145,49,91,74,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",IDOK,149,117,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,201,117,48,16,BS_FLAT
+    PUSHBUTTON      "Default",IDC_DEFAULT,7,117,48,16,BS_FLAT
+    LTEXT           "Channel",IDC_TEXT_CHANNEL,24,47,41,14,SS_CENTERIMAGE
+    LTEXT           "Sample/Sec",IDC_TEXT_SPS,24,66,41,14,SS_CENTERIMAGE
+    GROUPBOX        "Sound Quality",IDC_TEXT_SOUNDQUALITY,13,33,113,75
+    LTEXT           "== Config ==",IDC_TEXT_CONFIGTITLE,7,7,96,12,SS_CENTERIMAGE
+    LTEXT           "Buffer",IDC_TEXT_BUFFER,24,86,41,14,SS_CENTERIMAGE
+    LTEXT           "sec",IDC_TEXT_SECOND,101,86,19,14,SS_CENTERIMAGE
+    GROUPBOX        "Font",IDC_TEXT_FONT,133,33,112,60
+    CTEXT           "ABC abc 123",IDC_FONTSAMPLE,145,69,91,14,SS_CENTERIMAGE,WS_EX_STATICEDGE
+END
+
+DLG_MESSAGE DIALOGEX 0, 0, 187, 57
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,68,35,52,15,BS_FLAT
+    CTEXT           "---",IDC_MESSAGE,7,12,172,12,SS_CENTERIMAGE
+END
+
+DLG_BUILDOPTION DIALOGEX 0, 0, 246, 252
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    COMBOBOX        IDC_COMBO_CHANNEL,65,130,44,60,CBS_DROPDOWNLIST | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SPS,65,148,44,67,CBS_DROPDOWNLIST | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_PLAYSCOPE,135,128,99,60,CBS_DROPDOWNLIST | WS_TABSTOP
+    EDITTEXT        IDC_PLAYTIME,190,148,28,14,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXTRAFADE,190,166,28,14,ES_RIGHT | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Ok",IDOK,136,221,48,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,188,221,48,16,BS_FLAT
+    PUSHBUTTON      "Default",IDC_DEFAULT,10,221,48,16,BS_FLAT
+    LTEXT           "== Build Option ==",IDC_TEXT_BUILDOPTION,7,7,96,12,SS_CENTERIMAGE
+    LTEXT           "Channel",IDC_TEXT_CHANNEL,17,130,41,14,SS_CENTERIMAGE
+    LTEXT           "Sample/Sec",IDC_TEXT_SPS,17,148,41,14,SS_CENTERIMAGE
+    GROUPBOX        "Sound Quality",IDC_TEXT_SOUNDQUALITY,7,114,115,75
+    GROUPBOX        "Build Scope",IDC_TEXT_PLAYSCOPE,126,114,113,75
+    LTEXT           "Total Time",IDC_TEXT_TOTALTIME,129,69,34,14,SS_CENTERIMAGE
+    GROUPBOX        "Play Data Information",IDC_TEXT_PLAYINFOMATION,7,26,232,71
+    RTEXT           "-",IDC_TOTALTIME,167,69,31,14,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "sec",IDC_TEXT_SEC1,201,69,12,14,SS_CENTERIMAGE
+    LTEXT           "Loop Time",IDC_TEXT_LOOPTIME,25,69,34,14,SS_CENTERIMAGE
+    RTEXT           "-",IDC_LOOPTIME,62,69,31,14,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "sec",IDC_TEXT_SEC2,96,69,12,14,SS_CENTERIMAGE
+    LTEXT           "Play Time",IDC_TEXT_PLAYTIME,135,148,52,14,SS_CENTERIMAGE
+    LTEXT           "sec",IDC_TEXT_SEC3,221,147,12,14,SS_CENTERIMAGE
+    LTEXT           "Fade-Out",IDC_TEXT_EXTRAFADE,135,166,52,14,SS_CENTERIMAGE
+    LTEXT           "sec",IDC_TEXT_SEC4,221,165,12,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_VOLUME,65,196,28,14,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Volume",IDC_TEXT_PLAYTIME2,17,196,34,14,SS_CENTERIMAGE
+    LTEXT           "(0.01 ... 1.00)",IDC_TEXT_PLAYTIME3,101,196,41,14,SS_CENTERIMAGE
+    LTEXT           "Head Time",IDC_TEXT_HEADTIME,25,47,34,14,SS_CENTERIMAGE
+    RTEXT           "-",IDC_HEADTIME,62,47,31,14,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "sec",IDC_TEXT_SEC5,96,47,12,14,SS_CENTERIMAGE
+END
+
+DLG_BUILDPROGRESS DIALOGEX 0, 0, 115, 53
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "-"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,6,33,101,13,BS_FLAT
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",PBS_SMOOTH,6,21,101,9
+    LTEXT           "-",IDC_STATUS,6,7,101,10,0,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "DLG_ABOUT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    "DLG_CONFIG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    "DLG_MESSAGE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    "DLG_BUILDOPTION", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 245
+    END
+
+    "DLG_BUILDPROGRESS", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 108
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,199 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_HEARSELECT DIALOGEX 0, 0, 200, 320
+STYLE DS_SETFONT | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "Select Voice File"
+MENU "MENU_HEARSELECT"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_LIST | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,24,196,216
+    CONTROL         "Add Unit",IDC_CHECK_ADDUNIT,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,210,138,61,18
+    CONTROL         "Loop",IDC_CHECK_LOOP,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,210,174,61,18
+    DEFPUSHBUTTON   "Ok",IDOK,210,198,61,18,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,210,222,61,18,BS_FLAT
+    LTEXT           "Sort",IDC_TEXT_SORT,210,25,19,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_SORT,234,24,37,56,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "---",IDC_KEY_DRAG,253,159,19,13,SS_CENTERIMAGE | WS_TABSTOP,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_DIRECTORYPATH,6,6,265,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_INFORMATION,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,210,42,61,90,WS_EX_STATICEDGE
+    LTEXT           "Key",IDC_TEXT_KEY,211,160,19,11,SS_CENTERIMAGE
+    CTEXT           "0",IDC_KEY,234,160,16,11,SS_CENTERIMAGE,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "DLG_HEARSELECT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,3,2
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "Studio Pixel"
+            VALUE "FileVersion", "0.9.3.2"
+            VALUE "LegalCopyright", "(C) Studio Pixel 2017"
+            VALUE "ProductName", "pxtoneTool"
+            VALUE "ProductVersion", "0.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON_FILE_DRIVE_FIXED   ICON                    "icon/file_drive_fixed.ico"
+ICON_FILE_DRIVE_CDROM   ICON                    "icon/file_drive_cdrom.ico"
+ICON_FILE_DRIVE_REMOVE  ICON                    "icon/file_drive_remove.ico"
+ICON_FILE_DRIVE_X       ICON                    "icon/file_drive_x.ico"
+ICON_FILE_CLOSE         ICON                    "icon/file_close.ico"
+ICON_FILE_FOLDER        ICON                    "icon/file_folder.ico"
+ICON_FILE_PCM           ICON                    "icon/file_pcm.ico"
+ICON_FILE_PTN           ICON                    "icon/file_ptn.ico"
+ICON_FILE_PTV           ICON                    "icon/file_ptv.ico"
+ICON_FILE_OGGV          ICON                    "icon/file_oggv.ico"
+ICON_FILE_LNK           ICON                    "icon/file_lnk.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MENU_HEARSELECT MENU
+BEGIN
+    POPUP "System Folder"
+    BEGIN
+        MENUITEM "Desktop",                     IDM_DIR_DESKTOP
+        MENUITEM "My Document",                 IDM_DIR_MYDOCUMENT
+        MENUITEM "My Computer",                 IDM_DIR_MYCOMPUTER
+    END
+    POPUP "History"
+    BEGIN
+        MENUITEM "=",                           IDM_HISTORY_D, GRAYED
+    END
+END
+
+MENU_DUMMY MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "a",                           40010
+        MENUITEM "a",                           IDM_HISTORY_1
+        MENUITEM "a",                           IDM_HISTORY_2
+        MENUITEM "a",                           IDM_HISTORY_3
+        MENUITEM "a",                           IDM_HISTORY_4
+        MENUITEM "a",                           IDM_HISTORY_5
+        MENUITEM "a",                           IDM_HISTORY_6
+        MENUITEM "a",                           IDM_HISTORY_7
+        MENUITEM "a",                           40018
+        MENUITEM "a",                           IDM_HISTORY_9
+    END
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

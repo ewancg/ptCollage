@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{0a619b49-ad6b-4da5-b9bb-39637e80cfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6facd836-467d-40f6-bd4d-19a154821e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialog">
+      <UniqueIdentifier>{dc3915c0-470e-427c-bbd0-8f30002b1254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interface">
+      <UniqueIdentifier>{477029f3-d87d-47ce-aaf0-7cb88ba93c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interface\cursor">
+      <UniqueIdentifier>{da9dee3c-27c5-4667-9d9d-878b76d23b8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="interface\if_BaseField.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Copier.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Effector.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Free.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Keyboard.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_KeyField.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Menu_Division.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Menu_Play.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Menu_Scope.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Menu_Unit.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Menu_Woice.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Menu_Zoom.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Panel_Comment.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Panel_Logo.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Panel_Rack.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Panel_Scale.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Player.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_PlayField.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Projector.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_ScopeField.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_SelectNo_Group.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_SelectNo_Woice.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_ShortcutKey.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_SubWindows.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_ToolPanel.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_UnitField.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_UnitTray.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_VolumeField.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_VolumePanel.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_WoiceDummy.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_WoiceField.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_WoiceTray.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\Interface.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_About.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_AddUnit.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_BuildOption.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_BuildProgress.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Comment.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Config.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_CopyMeas.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Delay.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_EventVolume.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_OverDrive.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Project.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Property.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Scope.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Unit.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Woice.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_YesNo.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="WoiceFocus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Generic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="JapaneseTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeEvent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoEvent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFocus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Woice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiInput.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveTone.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_WoiceTray.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Copier.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Effector.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Keyboard.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_KeyField.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Menu_Division.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Menu_Play.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Menu_Scope.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Menu_Unit.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Menu_Woice.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Menu_Zoom.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Panel_Comment.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Panel_Rack.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Panel_Scale.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Player.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_PlayField.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Projector.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_ScopeField.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Tenkey_Correct.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_ToolPanel.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_UnitField.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_UnitTray.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_VolumeField.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_VolumePanel.cpp">
+      <Filter>src\interface\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="pxtoneProject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Tenkey_Tuning.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dialog\dlg_AddUnit.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\dlg_BuildProgress.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\dlg_Delay.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\dlg_EventVolume.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\dlg_OverDrive.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\SurfaceNo.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_BaseField.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Copier.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Effector.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Free.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Keyboard.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_KeyField.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Menu_Division.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Menu_Play.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Menu_Scope.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Menu_Unit.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Menu_Woice.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Menu_Zoom.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Panel_Comment.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Panel_Logo.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Panel_Rack.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Panel_Scale.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Player.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_PlayField.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Projector.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_ScopeField.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_SelectNo_Group.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_SelectNo_Woice.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_ShortcutKey.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_SubWindows.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_ToolPanel.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_UnitField.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_UnitTray.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_VolumeField.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_VolumePanel.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_WoiceField.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_WoiceTray.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\Interface.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="WoiceFocus.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="JapaneseTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeEvent.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoEvent.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFocus.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Woice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiInput.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveTone.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_WoiceDummy.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Cursor.h">
+      <Filter>src\interface\cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Tenkey_Tuning.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\add_u.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\add_uv.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\add_v.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Copier.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Effector.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_close.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_cdrom.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_fixed.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_remove.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_x.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_folder.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_lnk.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_pcm.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptn.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptv.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\ptCollage.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

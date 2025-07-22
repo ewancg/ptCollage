@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{71d96c52-8afd-4c5c-ba2e-ada8e7e574d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1dddd1c4-0bb4-4b08-ba46-8d91f3142742}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="HearSelect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Japanese.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="HearSelect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Japanese.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pxtoneTool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\file_close.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_cdrom.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_fixed.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_remove.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_x.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_folder.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_lnk.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_oggv.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_pcm.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptn.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptv.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="script.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

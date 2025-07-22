@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{927570d9-09ae-47d4-bb3c-0cf4462a53d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{666eb9f0-69e6-446f-a276-193266503453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialog">
+      <UniqueIdentifier>{5541985b-d9b2-4ee1-ac1f-dabd0e153348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interface">
+      <UniqueIdentifier>{f683ba81-1431-499b-8e3f-bc5602dc7a83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="interface\if_Cursor.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Menu_Zoom.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_Panel_Scale.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Cursor_PcmTable.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Free.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Menu_Zoom.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Panel_Logo.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_Panel_Scale.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\if_PcmTable.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\Interface.cpp">
+      <Filter>src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_About.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Config.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Message.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Noise_Copy.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Noise_Design.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_Noise_Quality.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_YesNo.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx\StdAfx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="PcmTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="JapaneseTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_History.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dlg_PCM_Volume.cpp">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dialog\dlg_Message.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx\StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\SurfaceNo.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Cursor.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Free.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Menu_Zoom.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Panel_Logo.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_Panel_Scale.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\if_PcmTable.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\Interface.h">
+      <Filter>src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="JapaneseTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PcmTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\dlg_History.h">
+      <Filter>src\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ptNoise.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\disable.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\enable.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\face.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_close.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_cdrom.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_fixed.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_remove.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_drive_x.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_folder.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_lnk.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_pcm.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptn.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon\file_ptv.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Free.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Panel_Logo.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Panel_Scale.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\ScrollH.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\ScrollV.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Symbol.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\Tenkey.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\bitmap1.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bmp\pattern.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="img\pattern.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="script.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
