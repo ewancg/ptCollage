@@ -5,6 +5,8 @@ A fork of [pxtone Collage](https://pxtone.org).
 The code has been adapted to build with CMake to enable building with MinGW on Windows, and to ease future porting efforts.
 It is not currently in a usable state because the XAudio2 client implementation is not compatible with the port.
 
+Please see the [roadmap](ROADMAP.md).
+
 ## Dependencies
 - zlib (provided)
 - libpng (provided)
