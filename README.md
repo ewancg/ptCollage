@@ -1,4 +1,3 @@
-## pxtoneCollage
 A fork of [pxtone Collage](https://pxtone.org).
 
 ## Changes made
@@ -14,6 +13,20 @@ Please see the [roadmap](ROADMAP.md).
 - DirectX 9.0 (not supported in this fork, but awaiting an alternative)
 
 All external dependencies were also provided with known working versions.
+
+## Building
+The CMakeLists.txt is fairly well documented and each option has a description. Use `cmake -LAH` to see all supported options.
+
+It should support Visual Studio if opened in a version supporting CMake. If you want to use MSYS2 (which is recommended),
+this command can be used to build all tools, assuming you have the accompanying packages installed:
+
+`cmake -B build -S . -DBUNDLE_BUILD_DIR=release -DCMAKE_BUILD_TYPE=Release && cmake --build build --parallel`
+
+```
+mingw-w64-ucrt-x86_64-libogg
+mingw-w64-ucrt-x86_64-libvorbis
+mingw-w64-ucrt-x86_64-libpng
+```
 
 ---
 
